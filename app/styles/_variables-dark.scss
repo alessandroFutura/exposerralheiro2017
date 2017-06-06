@@ -1,0 +1,19 @@
+$bg-base: #555;
+$light-bg: #eee;
+$main-color: #f00;
+$main-color-darker: darken($main-color, 15%);
+$main-color-dark: darken($main-color, 10%);
+$main-color-light: lighten($main-color, 10%);
+$main-color-lighter: lighten($main-color, 15%);
+
+$brand-primary: $main-color;
+$font-family-base: 'Open Sans', sans-serif;
+$body-bg: #fff;
+// $text-color: #eee;
+
+$navbar-default-bg: darken($bg-base, 3%);
+$navbar-default-border: darken($bg-base, 5%);
+$navbar-default-link-color: #ddd;
+$navbar-default-link-hover-color: #fff;
+$navbar-default-toggle-hover-bg: lighten($bg-base, 5%);
+$navbar-default-toggle-border-color: $bg-base;

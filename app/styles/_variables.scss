@@ -1,0 +1,11 @@
+$main-color: #009688;
+$main-color-darker: darken($main-color, 15%);
+$main-color-dark: darken($main-color, 10%);
+$main-color-light: lighten($main-color, 10%);
+$main-color-lighter: lighten($main-color, 15%);
+
+$brand-primary: $main-color;
+
+$font-family-base: 'Open Sans', sans-serif;
+
+$light-bg: #f5f5f5;

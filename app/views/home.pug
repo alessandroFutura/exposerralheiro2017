@@ -1,0 +1,50 @@
+.container.offset-top-60
+	.col-xs-12.paragraph
+		h2.text-light.text-lg.text-center
+			| {{strings.content.paragraph.title}}
+		.separator.separator-lg
+		p.text-sm.text-line-spacing.text-light.text-gray.text-center
+			| {{strings.content.paragraph.subtitle}}
+
+.topics.offset-top-60
+	.container.offset-top-60.offset-bottom-60
+		.row
+			.col-xs-12.col-sm-4.topic(ng-repeat='topic in strings.content.topics')
+				.icon
+					i.fa.icon-lg(ng-class='topic.icon')
+				h4.text-md.text-light.text-center.offset-top-30
+					| {{topic.title}}
+				p.text-sm.text-line-spacing.text-light.text-gray.offset-top-30
+					| {{topic.text}}
+
+.container.offset-top-60
+	.col-xs-12.paragraph
+		h2.text-light.text-lg.text-center
+			| {{strings.content.gallery.title}}
+		.separator.separator-lg
+	
+#carousel-gallery.carousel.slide(data-ride="carousel")
+	.carousel-inner(role='listbox')
+		.item(ng-repeat="page in home.gallery track by $index" ng-class='{"active": $index == 0}')
+			.col-xs-6.col-sm-4.image(ng-repeat="image in page.images track by $index" ng-click="openLightboxModal(page.images,$index)" style="background-image:url({{image.cover}})")
+				span {{image.caption}}
+	
+	a.left.carousel-control(data-target="#carousel-gallery" role="button" data-slide='prev')
+		span.fa.fa-angle-left(aria-hidden='true')
+	a.right.carousel-control(data-target="#carousel-gallery" role="button" data-slide='next')
+		span.fa.fa-angle-right(aria-hidden='true')
+
+.container.offset-top-60
+	.col-xs-12.paragraph
+		h2.text-light.text-lg.text-center
+			| Vídeos
+		.separator.separator-lg
+
+.videos
+	.container
+		.col-xs-12.col-sm-6.video
+			iframe(ng-src="https://www.youtube.com/embed/ssqHxLcsVOY" frameborder="0" allowfullscreen)
+		.col-xs-12.col-sm-6.video
+			iframe(ng-src="https://www.youtube.com/embed/ssqHxLcsVOY" frameborder="0" allowfullscreen)
+
+.container.offset-top-60

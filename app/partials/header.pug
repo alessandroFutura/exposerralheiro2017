@@ -1,0 +1,26 @@
+nav.navbar.navbar-default.navbar-fixed-top
+	.container
+		#navbar.collapse.navbar-collapse
+			ul.nav.navbar-nav.navbar-right
+				li.text-center
+					a.social(ng-repeat="icon in strings.header.icons" ng-href='{{icon.url}}' target='{{icon.target}}')
+						i.fa(ng-class="icon.icon")
+
+#carousel-header.carousel.slide(data-ride="carousel")
+	.carousel-inner(role='listbox')
+		.item(ng-repeat="slide in strings.header.slides track by $index" ng-class='{"active": $index == 0}')
+			div
+				.picture(ng-parallax pattern="slide['image-url']" speed='0')
+				.cover
+					h2.title.text-center
+						| {{slide.title}}
+					p.subtitle.text-center
+						| {{slide.subtitle}}
+					p.text-center
+						a.btn.btn-primary.btn-lg.btn-outline.text-white(ng-href='{{slide.button.href}}' ng-if='slide.button.enabled') 
+							| {{slide.button.caption}}
+	
+	a.left.carousel-control(data-target="#carousel-header" role="button" data-slide='prev')
+		span.fa.fa-angle-left(aria-hidden='true')
+	a.right.carousel-control(data-target="#carousel-header" role="button" data-slide='next')
+		span.fa.fa-angle-right(aria-hidden='true')

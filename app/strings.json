@@ -1,0 +1,131 @@
+{
+	"website": {		
+		"title": "Dafel :: Expo Serralheiro 2017"
+	},
+	"header": {
+		"icons":[
+			{
+				"name": "Youtube",
+				"url": "#",
+				"icon": "fa-youtube",
+				"target": "_blank"
+			},{
+				"name": "Youtube",
+				"url": "#",
+				"icon": "fa-youtube",
+				"target": "_blank"
+			},{
+				"name": "Youtube",
+				"url": "#",
+				"icon": "fa-youtube",
+				"target": "_blank"
+			}
+		],
+		"slides": [
+			{
+				"image-url": "../images/slide1.jpg",
+				"title": "Lorem Ipsum",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"button": {
+					"enabled": true,
+					"caption": "Ver mais",
+					"href": "#/sobre"
+				}
+			},{
+				"image-url": "../images/slide2.jpg",
+				"title": "Lorem Ipsum 2",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"button": {
+					"enabled": false,
+					"caption": "Ver menos",
+					"href": "#/sobre"
+				}
+			},{
+				"image-url": "../images/slide3.jpg",
+				"title": "Lorem Ipsum 3",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"button": {
+					"enabled": false,
+					"caption": "Ver menos",
+					"href": "#/sobre"
+				}
+			}
+		]
+	},
+	"content": {
+		"title": "Lorem Ipsum",
+		"paragraph": {
+			"title": "Lorem ipsum dolor sit amet",
+			"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo nibh, ultrices sed metus sed, varius aliquam arcu. In facilisis magna et laoreet feugiat. Ut turpis risus, egestas id odio nec, congue tempor elit. Vestibulum et mauris viverra, auctor dui venenatis, posuere neque. Vivamus mollis libero vitae lorem suscipit lobortis. Praesent non leo massa. Nunc commodo tempor pellentesque. Duis hendrerit erat diam, ut cursus turpis suscipit eu."
+		},
+		"topics": [
+			{
+				"icon": "fa-user-o",
+				"title": "Nullam aliquet",
+				"text": "Suspendisse urna leo, pulvinar nec dictum eget, commodo at risus. Integer feugiat quis nisl sed convallis. Nullam aliquet, lorem quis feugiat tempus, purus neque pharetra ipsum, non placerat dolor tortor vel arcu. Aenean feugiat, nisl ut porta laoreet, arcu massa molestie nibh, ut tincidunt felis massa in eros."
+			},{
+				"icon": "fa-send-o",
+				"title": "Suspendisse ac sapien",
+				"text": "Integer in neque at dui posuere ornare sagittis ac mauris. Sed ultrices justo eu tristique lobortis. Nunc laoreet interdum leo at pretium. Suspendisse ac sapien ac purus vulputate auctor. Etiam accumsan tortor sollicitudin quam vulputate, ac dictum leo consectetur."
+			},{
+				"icon": "fa-envelope-open-o",
+				"title": "Duis suscipit",
+				"text": "Duis suscipit ex at neque posuere pharetra. Morbi orci lorem, feugiat quis nibh vehicula, sagittis facilisis velit. In porta accumsan mi, nec ultricies risus suscipit et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+			}
+		],
+		"gallery": {
+			"title": "Galeria",
+			"images": [
+				{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/369-8.jpg",
+					"url": "images/gallery/369-8.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/2057-8.jpg",
+					"url": "images/gallery/2057-8.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/2350-9.jpg",
+					"url": "images/gallery/2350-9.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/7270-8.jpg",
+					"url": "images/gallery/7270-8.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/11402-8.jpg",
+					"url": "images/gallery/11402-8.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/89289.jpg",
+					"url": "images/gallery/89289.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/1195569.jpg",
+					"url": "images/gallery/1195569.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/4217701-cool-mac-background.jpg",
+					"url": "images/gallery/4217701-cool-mac-background.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/68417410-mac-wallpapers.jpg",
+					"url": "images/gallery/68417410-mac-wallpapers.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/1976367567-vintage-eiffel-tower-tumblr-photography-wallpaper-2.jpg",
+					"url": "images/gallery/1976367567-vintage-eiffel-tower-tumblr-photography-wallpaper-2.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/apple-background-landscape-best-mac-wallpapers-wallpaper-winter-movies-images.jpg",
+					"url": "images/gallery/apple-background-landscape-best-mac-wallpapers-wallpaper-winter-movies-images.jpg"
+				},{
+					"caption": "Same dolor kio loritu",
+					"cover": "images/gallery/Canal-Grande-Venice-Background-for-Mac.jpg",
+					"url": "images/gallery/Canal-Grande-Venice-Background-for-Mac.jpg"
+				}
+			]
+		}
+	}
+}
